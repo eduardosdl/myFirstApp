@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyFirstApp" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/my_dark_primary</item>
+        <item name="textAppearanceButton">@color/white</item>
+        <item name="backgroundColor">@color/white</item>
+        <item name="colorOnBackground">@color/black</item>
+        <item name="android:statusBarColor">@color/design_default_color_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.MyFirstApp" parent="Base.Theme.MyFirstApp" />
+</resources>
